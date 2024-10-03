@@ -15,7 +15,7 @@ app.get('/about', (req, res) => {
     res.send('This is a simple Express application.');
 });
 app.get('/about', (req, res) => {
-    res.send('PLAN SET. INSHAALLAH REKSHAPEDUM NEE');
+    res.send('PLAN SET. INSHAALLAH THEERCHAYAYUM NEE REKSHAPEDUM');
 });
 
 // API route to echo back the request body
