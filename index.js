@@ -14,6 +14,9 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
     res.send('This is a simple Express application.');
 });
+app.get('/about', (req, res) => {
+    res.send('PLAN SET. INSHAALLAH REKSHAPEDUM NEE');
+});
 
 // API route to echo back the request body
 app.post('/echo', (req, res) => {
